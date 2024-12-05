@@ -13,5 +13,5 @@ RUN \
     else echo "Lockfile not found." && exit 1; \
     fi
 
-EXPOSE 3000
+EXPOSE 30003
 CMD npm run start
